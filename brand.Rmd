@@ -1,0 +1,51 @@
+---
+title: "Differences in metaphor between fashion and social media brands"
+author: "Alexander Rauhut"
+date: "31.07.2020"
+
+output:
+  pdf_document:
+    number_sections: true
+
+bibliography: ../src/uni.bib
+---
+
+\tableofcontents
+\newpage
+
+# Introduction
+
+## Personification
+
+Personification is not one phenomenon, but multiple metaphorical patterns.
+
+Personification is often achieved by means of verbs like *talk*, *say*, *tell*.
+
+Utterance verbs
+Announce, utter, mention, remark, note
+
+Online services:
+Facebook, Amazon, Google, ebay,
+Skype,
+
+# Data collection
+
+## Categorizing brand names
+
+<!-- [pos = "NP(1|2)?.*" & pos != "NPD.*" & pos !="NPM.*"] -->
+
+Code every token tagged as proper noun that occurs more than 10 times as either online service or fashion brand.
+
+Potential problems
+Ambiguous nouns: Most fashion brands are also regular names.
+
+Idea: Does the fact that the brand has a regular name have an effect?
+
+# Conclusion
+
+
+
+\newpage
+
+# Bibliography
+
