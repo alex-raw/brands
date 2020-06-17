@@ -7,7 +7,7 @@ output:
   pdf_document:
     number_sections: true
 
-bibliography: ../src/uni.bib
+bibliography: references.bib
 ---
 
 \tableofcontents
@@ -15,9 +15,11 @@ bibliography: ../src/uni.bib
 
 # Introduction
 
-## Personification
+Brands for online services and brands for fashion differ in their metaphorical patterns.
 
-Personification is not one phenomenon, but multiple metaphorical patterns.
+# Concepts
+
+Personification is not one phenomenon, but multiple metaphorical patterns. [@lakoff+johnson08]
 
 Personification is often achieved by means of verbs like *talk*, *say*, *tell*.
 
