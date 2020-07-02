@@ -1,0 +1,10 @@
+COCA-S;
+define $fashion = "Vuitton H&(amp;)?M Nike Zara Gucci Hermes Cartier Adidas Prada";
+
+define $tech = "Facebook Google Amazon Microsoft Ebay eBay EBay Youtube YouTube Skype Wikipedia Neflix PayPal paypal Paypal Instagram Yahoo Myspace MySpace";
+
+A=[word = $fashion]; size A;
+B=[word = $tech]; size B;
+
+A=[pos = "i.*"][word = $fashion]; size A;
+B=[pos = "i.*"][word = $tech]; size B;
