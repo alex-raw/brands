@@ -23,6 +23,8 @@ Personification is not one phenomenon, but multiple metaphorical patterns. [@lak
 
 Personification is often achieved by means of verbs like *talk*, *say*, *tell*.
 
+Animacy, animate nouns
+
 Utterance verbs
 Announce, utter, mention, remark, note
 
@@ -32,11 +34,23 @@ Skype,
 
 # Data collection
 
+The data is drawn from the spoken part of the Corpus of Contemporary American English (COCA, @coca). It ranges from 1990 to 2012, therefore, the most recent brands cannot be investigated. This is especially true of social media brands, such as TikTok.
+
+The general perception of social media brands can be expected to have changed from a generally positive to a negative one.
+It is unclear, however, whether this would cause a change in the main metaphorical patterns.
+<!-- TODO: check for individual brands across time? -->
+hypothesize whether the old data makes a difference?
+
 ## Categorizing brand names
 
-<!-- [pos = "NP(1|2)?.*" & pos != "NPD.*" & pos !="NPM.*"] -->
+<!-- H&(amp;)?M -->
+<!-- [pos != "np.*"] -->
+<!-- define $fashion = "Vuitton H&(amp;)?M Nike Zara Gucci Hermes Cartier Adidas Prada"; -->
+<!-- define $tech = "Facebook Google Amazon Microsoft Ebay eBay EBay Youtube YouTube Skype Wikipedia Neflix PayPal paypal Paypal Instagram Yahoo" -->
 
-Code every token tagged as proper noun that occurs more than 10 times as either online service or fashion brand.
+gather data from the top 10 brands for fashion [^fashion] and social media.
+
+[^fashion]: https://www.businessinsider.com/the-worlds-top-10-fashion-brands-are-worth-122-billion-2015-7?r=DE&IR=T
 
 Potential problems
 Ambiguous nouns: Most fashion brands are also regular names.
