@@ -17,9 +17,19 @@ bibliography: references.bib
 
 Brands for online services and brands for fashion differ in their metaphorical patterns.
 
+Brands are abstract concepts and our perception of them can be expected to relate to more basic concepts, such as *people* or *places*. Many abstract nouns frequently occur in space-related metaphors, such as \textsc{mind is a container} or \textsc{life is a journey}.
+
+(@) *open/closed mind*
+(@) *origin of life*
+(@) *(…) we get kids from every walk of life.* [@bnc]
+
+<!-- Mirror section with examples from the data -->
+
 # Concepts
 
 Personification is not one phenomenon, but multiple metaphorical patterns. [@lakoff+johnson08]
+
+@deignan06 showed that we can find specific relationships between grammatical patterns and metaphorical mappings.
 
 Personification is often achieved by means of verbs like *talk*, *say*, *tell*.
 
@@ -28,13 +38,9 @@ Animacy, animate nouns
 Utterance verbs
 Announce, utter, mention, remark, note
 
-Online services:
-Facebook, Amazon, Google, ebay,
-Skype,
-
 # Data collection
 
-The data is drawn from the spoken part of the Corpus of Contemporary American English (COCA, @coca). It ranges from 1990 to 2012, therefore, the most recent brands cannot be investigated. This is especially true of social media brands, such as TikTok.
+The data is drawn from the spoken part of the Corpus of Contemporary American English [COCA, @coca]. It ranges from 1990 to 2012, therefore, the most recent brands cannot be investigated. This is especially true of social media brands, such as TikTok.
 
 The general perception of social media brands can be expected to have changed from a generally positive to a negative one.
 It is unclear, however, whether this would cause a change in the main metaphorical patterns.
@@ -45,10 +51,14 @@ hypothesize whether the old data makes a difference?
 
 <!-- H&(amp;)?M -->
 <!-- [pos != "np.*"] -->
-<!-- define $fashion = "Vuitton H&(amp;)?M Nike Zara Gucci Hermes Cartier Adidas Prada"; -->
-<!-- define $tech = "Facebook Google Amazon Microsoft Ebay eBay EBay Youtube YouTube Skype Wikipedia Neflix PayPal paypal Paypal Instagram Yahoo" -->
 
-gather data from the top 10 brands for fashion [^fashion] and social media.
+I have selected the top 10 fashion brands based on their net worth [^fashion], which are listed in table (@:fashion_table). TODO: make table with words
+
+<!-- TODO: deal with this Hermes guy -->
+
+The selection of social media platforms was based on their occurrence in the data. Some modern platforms, such as Instagram, TikTok, and WhatsApp were left out due to low counts.
+
+There is no straightforward way to distinguish social platform from online platform, or online platforms from software brands.
 
 [^fashion]: https://www.businessinsider.com/the-worlds-top-10-fashion-brands-are-worth-122-billion-2015-7?r=DE&IR=T
 
@@ -56,6 +66,10 @@ Potential problems
 Ambiguous nouns: Most fashion brands are also regular names.
 
 Idea: Does the fact that the brand has a regular name have an effect?
+
+Utterance verbs were broadly defined as verbs potentially referencing a spoken a written exchange.
+
+get rid of kindle
 
 # Conclusion
 
