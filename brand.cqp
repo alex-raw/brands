@@ -1,10 +1,17 @@
 COCA-S;
 define $fashion = "Vuitton H&(amp;)?M Nike Zara Gucci Hermes Cartier Adidas Prada";
 
-define $tech = "Facebook Google Amazon Microsoft Ebay eBay EBay Youtube YouTube Skype Wikipedia Neflix PayPal paypal Paypal Instagram Yahoo Myspace MySpace";
+define $tech = "Facebook Google Amazon Microsoft Ebay eBay EBay Youtube YouTube Skype Wikipedia Netflix PayPal paypal Paypal Instagram Yahoo Myspace MySpace";
 
 A=[word = $fashion]; size A;
 B=[word = $tech]; size B;
 
-A=[pos = "i.*"][word = $fashion]; size A;
-B=[pos = "i.*"][word = $tech]; size B;
+# preceded by preposition, no differences
+# [pos = "i.*"][word = $fashion]; size Last;
+# [pos = "i.*"][word = $tech]; size Last;
+
+# utterance verbs
+C=[word = $fashion] [pos = "r.*|v[hbm]"]* [pos = "vv.*"];
+count C by lemma on matchend > "fashion_utter.txt";
+D=[word = $tech] [pos = "r.*|v[hbm]"]* [pos = "vv.*"];
+count D by lemma on matchend > "tech_utter.txt";
