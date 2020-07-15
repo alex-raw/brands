@@ -69,11 +69,9 @@ Idea: Does the fact that the brand has a regular name have an effect?
 
 Utterance verbs were broadly defined as verbs potentially referencing a spoken a written exchange.
 
-get rid of kindle
-
 # Conclusion
 
-
+test
 
 \newpage
 
